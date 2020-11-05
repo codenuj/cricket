@@ -13,8 +13,7 @@ class Main {
 
     private static void takeInput() throws FileNotFoundException {
 
-        File text = new File("C:\\Users\\ujjaw\\Downloads\\score\\cricket\\src\\com\\learn\\score.txt");
-        //File text=new File("com\\learn\\score.txt");
+        File text = new File("score.txt");
         System.out.print("No of players for each team:");
         Scanner sc = new Scanner(text);
         int players = sc.nextInt();
